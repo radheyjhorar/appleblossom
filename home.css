@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.primary-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+    background: linear-gradient(to left, #ff86a1db, #6bdfff9c);
+    position: fixed;
+    width: 100vw;
+}
+
+.nav_inside{
+    max-width: 1236px;
+    width: 100vw;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.icon{
+    max-width: 200px;
+    height: inherit;
+}
+
+.logo{
+    height: inherit;
+
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    font-size: 14px;
+}
+
+.center-section ul li{
+    margin-left: 26px;
+}
+
+.right-section{
+    display: flex;
+}
+
+.right-section ul li{
+    margin-left: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    width: fit-content;
+}
+
+.el-circle{
+    line-height: normal;
+    padding: 6px 10px;
+    border-radius: 16px;
+    background: #75757541;
+}
+
+.margin-0{
+    margin: 0% !important;
+}
+
+.profile-item{
+    line-height: normal;
+    padding: 6px 10px;
+    border-radius: 16px;
+    background: #ffffffd2;
+}
+
+.profile-item a{
+    color: black;
+}
+
+.user-icon{
+    padding: 0px 5px;
+    background: #49d7fe7b;
+}
+
+
+
+
+
+.banner{
+    max-width: 1236px;
+    height: 485px;
+    background-image: url(assets/images/Untitled\ design.jpg);
+    margin: auto;
+}
+
